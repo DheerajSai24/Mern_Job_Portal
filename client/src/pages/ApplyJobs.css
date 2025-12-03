@@ -1,0 +1,167 @@
+.apply-wrapper {
+  background-color: #f5f7fb;
+  min-height: 100vh;
+}
+
+.apply-page {
+  max-width: 1100px;
+  margin: 24px auto 40px;
+  padding: 0 20px 40px;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  color: #374151;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-bottom: 16px;
+}
+
+.back-btn img {
+  width: 16px;
+  height: 16px;
+}
+
+.apply-layout {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.job-detail,
+.apply-form-card {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.job-detail-header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.job-detail-header img {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.job-detail-header h1 {
+  font-size: 1.4rem;
+  color: #111827;
+}
+
+.job-detail-header p {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.job-tags span {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f3f4f6;
+  font-size: 0.8rem;
+  color: #4b5563;
+}
+
+.job-description {
+  margin-top: 10px;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
+.job-description h2 {
+  font-size: 1rem;
+  margin-top: 14px;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.job-description p,
+.job-description li {
+  line-height: 1.5;
+}
+
+.job-description ol {
+  padding-left: 18px;
+}
+
+.apply-form-card h2 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.apply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.form-group input,
+.form-group textarea {
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 8px 10px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.15);
+}
+
+.submit-btn {
+  margin-top: 6px;
+  border-radius: 999px;
+  padding: 9px 16px;
+  border: none;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: #1e40af;
+}
+
+@media (max-width: 900px) {
+  .apply-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+

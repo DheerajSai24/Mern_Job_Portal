@@ -1,0 +1,106 @@
+/* Custom Clerk Styling */
+
+/* Modal overlay */
+.cl-modalBackdrop {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+/* Main modal container */
+.cl-modal {
+  border-radius: 12px !important;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* Header styling */
+.cl-header {
+  text-align: center !important;
+  padding: 2rem 2rem 1rem 2rem !important;
+}
+
+.cl-headerTitle {
+  color: #1f2937 !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.cl-headerSubtitle {
+  color: #6b7280 !important;
+  font-size: 0.875rem !important;
+}
+
+/* Form styling */
+.cl-form {
+  padding: 0 2rem 2rem 2rem !important;
+  gap: 1rem !important;
+}
+
+/* Input fields */
+.cl-formFieldInput {
+  border: 2px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  padding: 0.75rem !important;
+  font-size: 0.875rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.cl-formFieldInput:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+  outline: none !important;
+}
+
+/* Primary button */
+.cl-formButtonPrimary {
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 0.75rem 1.5rem !important;
+  font-weight: 600 !important;
+  font-size: 0.875rem !important;
+  transition: all 0.2s ease !important;
+  text-transform: none !important;
+}
+
+.cl-formButtonPrimary:hover {
+  background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Social buttons */
+.cl-socialButtonsBlockButton {
+  border: 2px solid #e5e7eb !important;
+  border-radius: 8px !important;
+  padding: 0.75rem !important;
+  background-color: #ffffff !important;
+  transition: all 0.2s ease !important;
+}
+
+.cl-socialButtonsBlockButton:hover {
+  border-color: #d1d5db !important;
+  background-color: #f9fafb !important;
+}
+
+/* Links */
+.cl-footerActionLink {
+  color: #3b82f6 !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+}
+
+.cl-footerActionLink:hover {
+  color: #1d4ed8 !important;
+  text-decoration: underline !important;
+}
+
+/* Loading spinner */
+.cl-spinner {
+  border-color: #3b82f6 !important;
+}
+
+/* Error messages */
+.cl-formFieldErrorText {
+  color: #ef4444 !important;
+  font-size: 0.75rem !important;
+  margin-top: 0.25rem !important;
+}

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    background: #fff;
+    height: 60px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin: auto;
+}
+
+.btns{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    margin-right: 60px;
+}
+
+.login-btn {
+    background-color: rgb(5, 5, 213);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-btn:hover {
+    background-color: rgb(14, 14, 177);
+}
+
+.recruiter-btn {
+    background-color: white;
+    color: gray;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.recruiter-btn:hover{
+    border: 2px solid rgb(93, 93, 93);
+}
+
+
