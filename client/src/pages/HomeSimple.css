@@ -1,0 +1,73 @@
+.home-page {
+  min-height: 100vh;
+  background: #f9fafb;
+}
+
+.jobs-section {
+  padding: 60px 80px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.no-jobs {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.no-jobs p {
+  font-size: 1.1rem;
+  color: #6b7280;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .jobs-section {
+    padding: 50px 40px;
+  }
+  
+  .jobs-grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jobs-section {
+    padding: 40px 20px;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+  }
+  
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+}
